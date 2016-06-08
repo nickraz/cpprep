@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	setlocale(LC_ALL, "Russian");
 	int a = 5, b = 10, c = 0;
 	cout<<"Hi hi hi hi"<<endl<<"Testing ASM"<<endl;
 	__asm
@@ -19,6 +20,8 @@ int main()
 	}
 	cout<<"C = " <<c<<endl;
 	cout<<"Goodbye"<<endl;
+	cout<<"A new day!!"<<endl;
+	cout<<"Надо как-то потестировать ветки"<<endl;
 	system("pause");
 	return 0;
 }

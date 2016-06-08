@@ -8,14 +8,14 @@ int main()
 	cout<<"Hi hi hi hi"<<endl<<"Testing ASM"<<endl;
 	__asm
 	{
-		pushad
+		push ebp
+			mov ebp, esp
 			mov a, 4
 			mov b, 5
 			mov eax, a
 			add eax, b
 			mov c, eax
-			popad
-
+			leave
 	}
 	cout<<"C = " <<c<<endl;
 	system("pause");

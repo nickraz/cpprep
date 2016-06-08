@@ -18,6 +18,7 @@ int main()
 
 	}
 	cout<<"C = " <<c<<endl;
+	cout<<"Goodbye"<<endl;
 	system("pause");
 	return 0;
 }

@@ -21,6 +21,7 @@ int main()
 	cout<<"C = " <<c<<endl;
 	cout<<"Goodbye"<<endl;
 	cout<<"A new day!!"<<endl;
+	cout<<"Hello Hello my friend!"<<endl;
 	cout<<"Надо как-то потестировать ветки"<<endl;
 	system("pause");
 	return 0;
